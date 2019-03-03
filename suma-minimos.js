@@ -1,3 +1,8 @@
+//Podria usar un metodo de ordenamiento (points.sort(function(a, b){return a-b});), obtener los 
+//primeros dos numeros positivos y sumarlos, pero la siguiente funcion posee menos costo.
+
+
+
 array = [2,5,1,3,2,1,0,-1,3,8,-3]; //arreglo de entrada
 
 function sumaMinimos(array){       //funcion que retorna la suma de los dos menores
@@ -21,3 +26,4 @@ array.forEach((element)=>{       //recorro el arreglo
 }
 
 console.log(sumaMinimos(array)); // muestra por consola la suma.
+
